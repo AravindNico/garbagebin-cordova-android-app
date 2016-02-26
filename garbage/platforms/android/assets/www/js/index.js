@@ -38,7 +38,7 @@ var app = {
             
             $garbage = $(p_container);
            
-            if (level>=350){
+            if (level>=130){
                 $(s1).hide();
                 $(s2).hide();
                 $(s3).hide();
@@ -50,7 +50,7 @@ var app = {
                 $(s9).hide();
                 $(s10).hide();
             }
-            else if(level<=349 && level>=250){
+            else if(level<= 130 && level>=91 ){
                 $(s1).hide();
                 $(s2).hide();
                 $(s3).hide();
@@ -62,7 +62,7 @@ var app = {
                 $(s9,$garbage).attr('style',"fill:"+color_orange);
                 $(s10,$garbage).attr('style',"fill:"+color_orange);
             }
-            else if(level<=249 && level>=150){
+            else if(level<= 90&& level>=61){
                 $(s1).hide();
                 $(s2).hide();
                 $(s3).hide();
@@ -74,7 +74,7 @@ var app = {
                 $(s9,$garbage).attr('style',"fill:"+color_orange);
                 $(s10,$garbage).attr('style',"fill:"+color_orange);
             }
-            else if(level<=149 && level>=50){
+            else if(level<=60 && level>=21){
                 $(s1).hide();
                 $(s2).hide();
                 $(s3).hide();
@@ -86,7 +86,7 @@ var app = {
                 $(s9,$garbage).attr('style',"fill:"+color_orange);
                 $(s10,$garbage).attr('style',"fill:"+color_orange);
             }
-            else if(level<=49){
+            else if(level<=20){
                 $(s1,$garbage).attr('style',"fill:"+color_red);
                 $(s2,$garbage).attr('style',"fill:"+color_red);
                 $(s3,$garbage).attr('style',"fill:"+color_red);
